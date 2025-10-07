@@ -7,6 +7,12 @@
 for (let i = 1; i <= 100; i++) {
   if (i % 15 === 0) {
     //creo una condizone per i numeri multipli di 15
-    console.log("FizzBUzz");
+    console.log("Fizz");
+  } else if (i % 3 === 0) {
+    //creo una condizone per i numeri multipli di 3
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    //creo una condizone per i numeri multipli di 5
+    console.log(Buzz);
   }
 }
