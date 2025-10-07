@@ -5,5 +5,8 @@
 //Creo un Loop che va da 1 a 100
 
 for (let i = 1; i <= 100; i++) {
-  console.log(i);
+  if (i % 15 === 0) {
+    //creo una condizone per i numeri multipli di 15
+    console.log("FizzBUzz");
+  }
 }
